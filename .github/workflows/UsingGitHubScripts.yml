@@ -23,7 +23,7 @@ jobs:
       with:
         github-token: ${{secrets.PAT}}
         script: |
-            github.projects.createCard({
+            github.rest.projects.createCard({
             column_id: {{columnID}},
             content_id: context.payload.issue.id,
             content_type: "Issue"
