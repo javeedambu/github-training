@@ -27,4 +27,4 @@ jobs:
             column_id: {{columnID}},
             content_id: context.payload.issue.id,
             content_type: "Issue"
-            });
+            })
